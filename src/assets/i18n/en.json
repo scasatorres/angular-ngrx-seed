@@ -1,0 +1,31 @@
+{
+  "MAIN_PAGE": {
+    "TITLES": {
+      "ANGULAR_SEED_PROJECT": "Angular Seed Proyect"
+    },
+    "BUTTONS": {
+      "TOGGLE_LANGUAGE": "Toggle language"
+    }
+  },
+  "NOT_FOUND_PAGE": {
+    "TITLES": {
+      "NOT_FOUND": "Page not found" 
+    }
+  },
+  "POSTS_LIST_PAGE": {
+    "TITLES": {
+      "POSTS_LIST": "Posts list"
+    },
+    "LINKS": {
+      "GO_TO_POST": "Go to post"
+    }
+  },
+  "POST_DETAIL_PAGE": {
+    "TITLES": {
+      "POST_DETAIL": "Post detail"
+    },
+    "LINKS": {
+      "GO_BACK_TO_POSTS_LIST": "Go back to posts list"
+    }
+  }
+}

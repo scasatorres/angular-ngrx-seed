@@ -1,0 +1,9 @@
+<h2>{{ 'POSTS_LIST_PAGE.TITLES.POSTS_LIST' | translate }}</h2>
+<hr>
+<div *ngFor="let post of (posts$ | async); let last = last" [routerLink]="['/posts', post.id]">
+  <div>
+    <a [routerLink]="[ '/posts', post.id ]">{{ 'POSTS_LIST_PAGE.LINKS.GO_TO_POST' | translate }} {{ post.id }}</a>
+    <pre><code>{{ post | json }}</code></pre>
+  </div>
+  <hr *ngIf="!last">
+</div>

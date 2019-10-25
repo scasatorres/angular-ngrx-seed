@@ -1,0 +1,3 @@
+<h2>{{ 'POST_DETAIL_PAGE.TITLES.POST_DETAIL' | translate }}</h2>
+<a [routerLink]="['/posts']">{{ 'POST_DETAIL_PAGE.LINKS.GO_BACK_TO_POSTS_LIST' | translate }}</a>
+<pre><code>{{ (post$ | async) | json }}</code></pre>

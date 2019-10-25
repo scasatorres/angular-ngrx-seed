@@ -1,0 +1,31 @@
+{
+  "MAIN_PAGE": {
+    "TITLES": {
+      "ANGULAR_SEED_PROJECT": "Proyecto semilla Angular"
+    },
+    "BUTTONS": {
+      "TOGGLE_LANGUAGE": "Cambiar idioma"
+    }
+  },
+  "NOT_FOUND_PAGE": {
+    "TITLES": {
+      "NOT_FOUND": "Página no encontrada" 
+    }
+  },
+  "POSTS_LIST_PAGE": {
+    "TITLES": {
+      "POSTS_LIST": "Listado de posts"
+    },
+    "LINKS": {
+      "GO_TO_POST": "Ir al post"
+    }
+  },
+  "POST_DETAIL_PAGE": {
+    "TITLES": {
+      "POST_DETAIL": "Detalle del post"
+    },
+    "LINKS": {
+      "GO_BACK_TO_POSTS_LIST": "Volver al listado de posts"
+    }
+  }
+}
